@@ -2,6 +2,7 @@
 
 Moto-Mind is a full-stack web application that allows users to explore, configure, and customize Porsche models. The platform features an interactive configurator and a virtual garage.
 
+## Deployed Vercel Link - https://moto-mind.vercel.app/
 ## Project Structure
 
 This is a monorepo containing both the frontend and backend of the application:
