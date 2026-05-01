@@ -21,6 +21,9 @@ app.use(cors({
 app.get('/api/health', (_req, res) => {
   res.json({ ok: true, time: new Date().toISOString() })
 })
+app.get('/api', (_req, res) => {
+  res.json({ message: 'Moto-Mind API is running successfully!' })
+})
 app.use('/api/models', modelsRouter)
 app.use('/api/config', configRouter)
 
